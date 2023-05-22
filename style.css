@@ -15,6 +15,7 @@ nav{
     background-color: #fff159;
     position: fixed;
     z-index: 0;
+    box-shadow: 1px 1px 4px #797676;
 }
 
 nav ul{
@@ -79,5 +80,13 @@ nav img:last-child{
     color: #b6b5b5;
 }
 
+.cep{
+    display: flex; 
+    margin-top: -30px;
+    margin-left: 160px;
+    font-size: 15px;
+}
 
-
+.location-icon{
+    margin-top: -65px;
+}
