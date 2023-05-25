@@ -3,4 +3,5 @@ export enum MessageErrors {
     minValueString = "value min: ",
     needNumber = "need number",
     needId = "need id",
+    notFound = "not found",
 }

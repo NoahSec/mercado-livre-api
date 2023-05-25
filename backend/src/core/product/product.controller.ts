@@ -21,9 +21,16 @@ export default class ProductController {
         res.status(data.statusCode).send(data);
     }
 
-    async update(req: Request<IProductCreateDto>, res: Response): Promise<void> {
-        const data = await this.productService.create(req.body);
+    async update(req: Request, res: Response): Promise<void> {
+        const { id } = req.params;
+        const data = await this.productService.updateById(id, req.body);
 
+        res.status(data.statusCode).send(data);
+    }
+
+    async delete(req: Request, res: Response): Promise<void> {
+        const { id } = req.params;
+        const data = await this.productService.deleteById(id);
         res.status(data.statusCode).send(data);
     }
 }
