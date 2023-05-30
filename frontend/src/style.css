@@ -93,19 +93,20 @@ nav img:last-child{
 }
 
 
-.carrossel{
+.carrossel {
     overflow: hidden;
-    width:100%;
-}
-
-.conteiner-carrossel{
+    width: 100%;
+  }
+  
+  .conteiner-carrossel {
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
     margin-top: 105px;
-}
-
-#img{
+  }
+  
+  #imagem {
     object-fit: cover;
-    width: 1800px;
-}
+    width: 1800px;/* Ajuste a largura conforme necessário */
+  }
+  
