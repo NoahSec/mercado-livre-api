@@ -15,6 +15,7 @@ function exibirFotoAtual() {
     img.alt = 'Imagem do carrossel';
     carrossel.innerHTML = '';
     carrossel.appendChild(img);
+    
 }
 
 function avancarFoto() {
