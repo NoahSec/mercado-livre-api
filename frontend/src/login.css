@@ -115,10 +115,24 @@ input[type='submit']:hover{
     padding: 7px;
 }
 
+.aside > .line-botton-2{
+    border-bottom: 1px solid #d1cfcf; 
+    padding: 7px;
+    width: 250px;
+}
+
 .aside > .roubo-conta{
     text-align: left;
     margin-top: 13px;
+}
 
+.aside a{
+    text-decoration: none;
+}
+
+.roubo-conta p{
+    margin-left: 20px;
+    color: #d1cfcf;
 }
 
 .roubo-celular p{
@@ -134,6 +148,7 @@ input[type='submit']:hover{
 .material-symbols-outlined{
     font-size: 20px;  
     position: absolute;
+    color:rgb(43, 39, 39);
 }
 .aside h3{
     font-size: 15px;
@@ -143,4 +158,16 @@ input[type='submit']:hover{
 .report-problen{
     margin-top: 20px;
     height: 40px;
+}
+
+.footer{    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #d1cfcf;
+    height: 66px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top:35.4rem;
 }
