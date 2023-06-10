@@ -102,8 +102,45 @@ input[type='submit']:hover{
 }
 
 .aside{
+    display: flex;
+    flex-direction: column;
     position:absolute;
     margin-top: 6em;
     margin-left: 6em;
-    font-size:18px;   
+    font-size:18px;    
+}
+
+.aside > .line-botton{
+    border-bottom: 1px solid #d1cfcf; 
+    padding: 7px;
+}
+
+.aside > .roubo-conta{
+    text-align: left;
+    margin-top: 13px;
+
+}
+
+.roubo-celular p{
+    margin-left: 20px;
+    color: #d1cfcf;
+}
+
+#seta-end{
+    margin-top: 1px;
+    font-size:20px;
+    color: #d1cfcf;
+}
+.material-symbols-outlined{
+    font-size: 20px;  
+    position: absolute;
+}
+.aside h3{
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.report-problen{
+    margin-top: 20px;
+    height: 40px;
 }
